@@ -28,7 +28,11 @@ const app = Vue.createApp({
 
 
     // TODO: Add methods
-
+    methods: {
+    bookCabin() {
+        this.booking.completed = true;
+    }
+}
 
 
 });
